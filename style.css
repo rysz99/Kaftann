@@ -1,0 +1,260 @@
+body 
+{
+   background-color: #000;
+   color: white;
+   font-size: 28px;
+   margin: 0;
+   width: 100%;
+   text-align: center;
+}
+
+.logo
+{
+    background-color: #333333;
+    padding: 10px;
+}
+
+h1
+{
+    background-color: #c83238;
+    padding: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 38px;
+    color: black;
+    border-radius: 8px;
+}
+
+#intro
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 940px;
+}
+
+#intro > header > p
+{
+    line-height: 200%;
+    color: white;
+    background-color: darkgreen;
+    border-radius: 8px;
+}
+
+#content > main > div > img
+{
+    width: 450px;    
+}
+
+#content > main > div
+{
+    background-color: #111111;
+    padding-top: 10px;
+    transition: all 1s ease-in-out;
+}
+
+#content
+{
+    overflow: hidden;
+}
+
+#content > main > div:hover
+{
+    transform: scale(1.4);
+}
+
+p
+{
+    line-height: 160%;
+    text-align: justify;
+    padding: 25px;
+    color: #888888;
+}
+
+#menu
+{
+    background-color: #5065aa;
+    height: 80px;
+    margin-top: 75px;
+}
+
+ol > li > a
+{
+    display: block;
+    width: 430px;
+    color: white;
+    padding: 10px;    
+    letter-spacing: 6px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+ol,ul
+{
+    padding: 0;
+    margin: 0;    
+    list-style-type: none;
+}
+
+ol > li
+{
+    float: left;
+    padding: 10px 10px 15px;    
+    width: 470px;
+    margin: 0;
+}
+
+ol > li:hover
+{
+    background-color: #203277;
+}
+
+ol > li:hover ul
+{
+    display: block;
+}
+
+ol
+{
+    display: inline-block;
+}
+
+a
+{
+    text-decoration: none;
+    color: blue;
+}
+
+a.film
+{
+    color: yellow;
+}
+
+ul
+{
+    position: relative;
+    display: none;
+}
+
+ul > li
+{
+    margin-bottom: 10px;
+    background-color: #5065aa;
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+}
+
+ul > li:last-child
+{
+    margin-bottom: 0;
+}
+
+ul > li:first-child
+{
+    margin-top: 20px;
+}
+
+ul > li:hover
+{
+    background-color: #203277;
+    border: 3px solid #5065aa;
+}
+
+ul > li:hover a
+{
+    color: yellow;
+}
+
+ul > li > a
+{
+    color: black;
+    display: block;
+    width: 420px;
+    font-weight: 900;
+}
+
+#photo
+{
+    background-image: url(kaftann.jpeg);
+    width: 740px;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 740px 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2
+{
+    margin-top: 240px;
+    background-color: #203277;
+    padding: 15px;
+    letter-spacing: 12px;
+}
+
+#classics
+{
+    margin-top: 100px;
+}
+
+h2 > a,
+h3 > a
+{
+    width: 100%;
+    display: block;
+}
+
+h3
+{
+    margin-top: 150px;
+    background-color: #5065aa;
+    padding: 15px;
+    letter-spacing: 6px;
+}
+
+h3 > a:hover
+{
+    color: orangered;
+}
+
+h3.margin
+{
+   margin-top: 60px; 
+}
+
+#end
+{
+    margin: 75px 0;
+    background-color: darkgreen;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+#end > p
+{
+    color: white;
+    line-height: 200%;
+}
+
+footer > div
+{
+    background-color: #c83238;
+    padding: 30px;
+    color: black;
+    width: 880px;
+    margin: 0 auto 20px;
+    letter-spacing: 5px;
+    border-radius: 8px;
+}
+
+img
+{
+    width: 438px;
+}
+
+main > div
+{
+    margin-top: 100px;
+}
